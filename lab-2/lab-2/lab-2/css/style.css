@@ -1,0 +1,26 @@
+/** Step one **/
+
+/** Step two **/
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Dancing Script';
+}
+/** Step three **/
+h1{
+    font-size: 46px;
+    letter-spacing: 2px;
+    text-align: center;
+    color:rgb(214, 88, 214);
+}
+/** Step four **/
+p,a,li{
+    font-family: 'Open sans', sans-serif;
+}
+/** Step five **/
+span{
+    color:aqua;
+}
+/** Step six **/
+h3{
+    font-size: 40px;
+    text-shadow: 4px 3px 4px rgba(210, 24, 24, 0.607)
+}
