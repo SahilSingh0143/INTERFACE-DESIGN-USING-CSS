@@ -1,0 +1,28 @@
+/* Container for the SVG button */
+.svg-button-container {
+    display: inline-block;
+    cursor: pointer; /* Changes cursor to pointer to indicate a clickable element */
+    transition: transform 0.3s ease-in-out;  /* Smooth transition effect for scaling */
+}
+/* Hover effect for the SVG button container */
+.svg-button-container:hover {
+    transform: scale(1.1);
+}
+/* Transition effect for text within the SVG button */
+.svg-button text {
+    transition: fill 0.3s ease; /* Smooth transition for changing text color */
+}
+/* Hover effect for the text inside the SVG button */
+.svg-button-container:hover .svg-button text {
+    fill: #ff6f61; /* Hover text color */
+}
+
+.svg-button-container{
+    background: blueviolet; /* Sets the background color for the container */
+    margin-left: 45%;
+    margin-top: 17%;
+}
+
+body{
+    background:grey; /* Sets the background color of the page */
+}
